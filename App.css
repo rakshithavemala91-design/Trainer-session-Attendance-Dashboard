@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+.date-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.date-section input {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #007bff;
+  color: white;
+}
+
+.present,
+.absent {
+  padding: 8px 12px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.present {
+  background: green;
+}
+
+.absent {
+  background: red;
+}
+
+.active {
+  box-shadow: 0 0 8px #000;
+}
+
+.batch-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.batch-section div {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.batch-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.batch-section li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
